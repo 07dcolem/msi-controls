@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.07dcolem.msi-controls",
+  "name": "MSI Controls",
+  "version": "0.1.0",
+  "author": "Dylan Coleman",
+  "license": "MIT",
+  "description": "Animated controls for the msi-ec fan, shift, cooler boost, charge limit, camera, and Fn key.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "MSI Controls",
+    "description": "Animated controls for the msi-ec fan, shift, cooler boost, charge limit, camera, and Fn key.",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "barFanSpin": true
+    },
+    "schema": [
+      {
+        "key": "barFanSpin",
+        "type": "boolean",
+        "label": "Spin the bar icon",
+        "description": "Right-click the bar icon to stop or start its fan. The choice is stored on the bar entry.",
+        "defaultValue": true
+      }
+    ]
+  }
+}

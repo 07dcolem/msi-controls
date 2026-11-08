@@ -1,0 +1,21 @@
+{
+  "present": true,
+  "writable": false,
+  "fwVersion": "EXAMPLE.100",
+  "fwDate": "2021-02-03T11:10:21",
+  "shiftMode": "unspecified",
+  "shiftModes": ["eco", "comfort", "sport", "turbo"],
+  "fanMode": "auto",
+  "fanModes": ["auto", "basic", "advanced"],
+  "coolerBoost": false,
+  "webcam": true,
+  "webcamBlock": false,
+  "fnKey": "right",
+  "winKey": "left",
+  "superBattery": null,
+  "chargeEnd": 0,
+  "cpuTemp": 48,
+  "cpuFan": 30,
+  "gpuTemp": 45,
+  "gpuFan": 28
+}
